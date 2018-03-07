@@ -11,7 +11,7 @@ import PropTypes from "prop-types"
 import ReactDOM from "react-dom"
 import classNames from "classnames"
 
-import "./index.less"
+// import "./index.less"
 
 export default class ComponentName extends PureComponent {
   state = {
