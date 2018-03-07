@@ -42,7 +42,7 @@ ReactDOM.render(
 ```
 
 ## Options
-
+...
 
 
 ## Development

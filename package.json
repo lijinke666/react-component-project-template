@@ -15,20 +15,21 @@
     "demo": "webpack-dev-server --progress --inline --hot --config  ./example/webpack.config.js",
     "prepublish": "npm run pub"
   },
-  "author": "jinke.li",
+  "author": "{name}",
   "repository": {
     "type": "git",
-    "url": "https://github.com/lijinke666/npm-project-template.git"
+    "url": "https://github.com/[your github address]/{name}.git"
   },
   "bugs": {
-    "url": "https://github.com/lijinke666/npm-project-template/issues"
+    "url": "https://github.com/[your github address]/{name}/issues"
   },
   "license": "MIT",
   "keywords": [
     "react",
     "reactjs",
     "component",
-    "dawdler"
+    "dawdler",
+    "{name}"
   ],
   "dependencies": {
     "classnames": "^2.2.5",
