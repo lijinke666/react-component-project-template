@@ -8,10 +8,11 @@ Have Fun !
 
 ## Usage for the template
 ```
-dev: npm start | npm run demo
-build demo : npm run build-demo
-published to the NPM : npm run pub
-test : npm run test
+[dev]: npm start | `npm run demo`
+[build demo] : `npm run build:demo`
+[build] : `npm run build`
+[test] : `npm run test`
+[lint] : `npm run lint`
 ```
 
 ## Installation
@@ -50,6 +51,7 @@ ReactDOM.render(
 git clone https://github.com/[your github address]/{name}.git
 npm install | yarn 
 npm start
+open `http://localhost:8081/`
 ```
 
 ## Properties

@@ -1,4 +1,3 @@
-
 /**
  * @version 0.0.1
  * @name npm-component-project-template
@@ -6,27 +5,33 @@
  * @author jinke.li
  */
 
-import React, { PureComponent } from "react"
-import PropTypes from "prop-types"
-import ReactDOM from "react-dom"
-import classNames from "classnames"
+import React, { PureComponent } from "react";
+/*eslint-disable*/
+import PropTypes from "prop-types";
+import classNames from "classnames";
+/*eslint-disable*/
 
-// import "./index.less"
+import "./styles/index.less";
 
-export default class ComponentName extends PureComponent {
-  state = {
-  }
-  static defaultProps = {
-  }
-  static PropTypes = {
-  }
+export default class YourComponent extends PureComponent {
+  state = {};
+  static defaultProps = {};
+  static propTypes = {};
   constructor(props) {
-    super(props)
+    super(props);
   }
   render() {
-    return [
-      <h2 className="title">react-component-project-template</h2>,
-      <p>By:<a href="https://github.com/lijinke666/dawdler" target="_blank">Dawdler</a></p>
-    ]
+    return (
+      <>
+        <h2 className="title" key="title">
+          react-component-project-template
+        </h2>
+        <p key="p">
+          By:<a href="https://github.com/lijinke666/dawdler" target="_blank">
+            Dawdler
+          </a>
+        </p>
+      </>
+    );
   }
 }
