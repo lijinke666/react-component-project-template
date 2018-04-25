@@ -1,4 +1,5 @@
 # {name}
+
 [![npm](https://img.shields.io/npm/dm/{name}.svg?style=flat-square)](https://www.npmjs.com/package/{name})
 [![npm](https://img.shields.io/npm/l/{name}.svg?style=flat-square)](https://www.npmjs.com/package/{name})
 [![npm version](https://img.shields.io/npm/v/{name}.svg?style=flat-square)](https://badge.fury.io/js/{name})
@@ -8,10 +9,10 @@ react component project template for npm modules
 
 by Dawdler [https://github.com/lijinke666/dawdler](https://github.com/lijinke666/dawdler) <br/>
 
-Have Fun ! 
-
+Have Fun !
 
 ## Usage for the template
+
 ```
 [dev]: npm start | `npm run demo`
 [build demo] : `npm run build:demo`
@@ -21,18 +22,21 @@ Have Fun !
 ```
 
 ## Installation
+
 ```
 npm install {name} --save
 ```
 
 ## Screenshots
---
 
+![https://github.com/lijinke666/{name}/bolb/master/assets/logo.png](https://github.com/lijinke666/{name}/blob/master/assets/logo.png)
 
 ## Example
-> ONLINE example :  [https://[your github address].github.io/{name}/](https://[your github address].github.io/{name}/)
+
+> ONLINE example : [https://[your github address].github.io/{name}/](https://[your github address].github.io/{name}/)
 
 ## Usage
+
 > Just do the demonstration
 
 ```jsx
@@ -48,13 +52,14 @@ ReactDOM.render(
 ```
 
 ## Options
+
 ...
 
-
 ## Development
+
 ```
 git clone https://github.com/[your github address]/{name}.git
-npm install | yarn 
+npm install | yarn
 npm start
 open `http://localhost:8081/`
 ```
@@ -67,6 +72,6 @@ open `http://localhost:8081/`
   }
 ```
 
-
 ## License
+
 [MIT](https://github.com/[your github address]/{name}/blob/master/LICENCE)
