@@ -9,6 +9,7 @@ yarn-error.log*
 logs
 .process.json
 lib
+assets
 
 # Runtime data
 pids

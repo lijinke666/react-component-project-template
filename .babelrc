@@ -20,13 +20,17 @@
           }
         ]
       ]
+    },
+    "development":{
+      "plugins":[
+        "react-hot-loader/babel"
+      ]
     }
   },
   "plugins": [
     "transform-es2015-modules-commonjs",
-    "@babel/plugin-proposal-object-rest-spread",
     "transform-decorators-legacy",
     "transform-class-properties",
-    "react-hot-loader/babel"
+    "@babel/plugin-proposal-object-rest-spread"
   ]
 }

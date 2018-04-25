@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<YourComponent/> should render <YourComponent/> components 1`] = `
+<React.Fragment>
+  <h2
+    className="title"
+    key="title"
+  >
+    react-component-project-template
+  </h2>
+  <p
+    key="p"
+  >
+    By:
+    <a
+      href="https://github.com/lijinke666/dawdler"
+      target="_blank"
+    >
+      Dawdler
+    </a>
+  </p>
+</React.Fragment>
+`;

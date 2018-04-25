@@ -3,7 +3,7 @@ import React from "react";
 import assert from "power-assert";
 import { shallow } from "enzyme";
 
-import YourComponent from "../src";
+import YourComponent from "../../src";
 
 describe("<YourComponent/>", () => {
   it("should render <YourComponent/> components", () => {

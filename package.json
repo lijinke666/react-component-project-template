@@ -4,17 +4,17 @@
   "description": "react component project template for npm modules, By:Dawdler",
   "main": "lib/index.js",
   "scripts": {
-    "start": "npm run demo",
+    "start": "yarn demo",
     "test": "jest __tests__/tests",
     "clean": "rimraf lib && rimraf assets",
-    "auto": "postcss -u autoprefixer -c postcss.config.json --no-map -o assets/index.css  assets/index.css",
-    "build:css": "lessc src/styles/index.less assets/index.css && npm run auto",
+    "autoprefixer": "postcss -u autoprefixer -c postcss.config.json --no-map -o assets/index.css  assets/index.css",
+    "build:css": "lessc src/styles/index.less assets/index.css && yarn autoprefixer",
     "build:js": "babel src -d lib",
-    "build": "npm run clean && npm run build:js && npm run build:css",
+    "build": "yarn run clean && yarn build:js && yarn build:css",
     "build:demo": "webpack --env.mode=PROD --progress --config  ./example/webpack.config.js",
     "demo": "webpack-dev-server --progress --inline --hot --config  ./example/webpack.config.js",
     "lint": "prettier --write \"src/**/*.js\" && eslint_d --fix src",
-    "prepare": "npm run build"
+    "prepare": "yarn build"
   },
   "pre-commit": "lint",
   "lint-staged": {
@@ -43,8 +43,8 @@
   "dependencies": {
     "classnames": "^2.2.5",
     "prop-types": "^15.6.0",
-    "react": "^16.3.0",
-    "react-dom": "^16.3.1"
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2"
   },
   "devDependencies": {
     "@babel/cli": "7.0.0-beta.44",
@@ -71,6 +71,7 @@
     "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
     "babel-plugin-transform-object-assign": "^6.22.0",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-require-ignore": "^0.1.1",
     "chai": "^4.1.2",
     "copy-webpack-plugin": "latest",
     "css-loader": "~0.23.0",
@@ -86,7 +87,7 @@
     "html-loader": "^0.4.4",
     "html-webpack-plugin": "^2.28.0",
     "imagemin-webpack-plugin": "^1.4.4",
-    "jest": "^19.0.2",
+    "jest": "^22.4.3",
     "less": "^2.7.2",
     "less-loader": "^2.2.3",
     "open-browser-webpack-plugin": "0.0.2",
@@ -94,6 +95,7 @@
     "postcss": "^6.0.12",
     "postcss-cli": "^4.1.1",
     "postcss-loader": "^1.2.2",
+    "power-assert": "^1.5.0",
     "pre-commit": "^1.2.2",
     "prettier": "^1.12.1",
     "rc-button": "^0.1.5",
@@ -116,6 +118,10 @@
       "json"
     ],
     "transformIgnorePatterns": [
+      "/node_modules/"
+    ],
+    "modulePathIgnorePatterns": [
+      "/.history/",
       "/node_modules/"
     ],
     "setupTestFrameworkScriptFile": "<rootDir>/__tests__/setup.js",
