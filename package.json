@@ -1,5 +1,5 @@
 {
-  "name": "dawdler-react-component-project-template",
+  "name": "{name}",
   "version": "0.0.1",
   "description": "react component project template for npm modules, By:Dawdler",
   "main": "lib/index.js",
