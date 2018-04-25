@@ -25,6 +25,7 @@
     ]
   },
   "author": "{name}",
+  "homepage": "https://[your github address].github.io/{name}",
   "repository": {
     "type": "git",
     "url": "https://github.com/[your github address]/{name}.git"
