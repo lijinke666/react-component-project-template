@@ -10,6 +10,7 @@ logs
 .process.json
 lib
 assets
+coverage
 
 # Runtime data
 pids

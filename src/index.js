@@ -6,11 +6,8 @@
  */
 
 import React, { PureComponent } from "react";
-/*eslint-disable*/
 import PropTypes from "prop-types";
 import classNames from "classnames";
-/*eslint-disable*/
-
 import "./styles/index.less";
 
 export default class YourComponent extends PureComponent {

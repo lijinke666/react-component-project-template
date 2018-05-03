@@ -19,6 +19,7 @@ Have Fun !
 [build] : `npm run build`
 [test] : `npm run test`
 [lint] : `npm run lint`
+[coverage] : `npm run ci`
 ```
 
 ## Installation
@@ -29,7 +30,6 @@ npm install {name} --save
 
 ## Screenshots
 
-![https://github.com/lijinke666/{name}/bolb/master/assets/logo.png](https://github.com/lijinke666/{name}/blob/master/assets/logo.png)
 
 ## Example
 
